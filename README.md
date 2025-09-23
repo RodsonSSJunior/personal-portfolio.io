@@ -13,8 +13,6 @@ JavaScript – interatividade e dinamicidade
 
 ✨ Funcionalidades
 
-Design totalmente responsivo, adaptando-se a diferentes tamanhos de tela.
-
 Seções de sobre mim, projetos, habilidades e contato.
 
-Efeitos de rolagem e animações suaves para uma melhor experiência do usuário.
+Efeitos de animações suaves para uma melhor experiência do usuário.
