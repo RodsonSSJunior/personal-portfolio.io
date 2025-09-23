@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <!-- Fontes -->
+  <script src="https://kit.fontawesome.com/31149d48b0.js"></script>
+
+  <title>Portfolio</title>
+</head>
+
+<body>
+  <section class="hidden" id="navbar">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#home">Rodson</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contato">Contatos</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </section>
+
+  <!-- Main Banner -->
+  <section class="hidden">
+    <section class="bgimage" id="home">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+            <h2 class="hero_title">Rodson de Souza Silva Junior</h2>
+            <p class="hero_desc">Desenvolvedor Full-Stack | Java | JavaScript | SQL</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+  <!-- Section Sobre -->
+  <section class="hidden" id="about">
+    <div class="container mt-4 pt-4">
+      <h1 class="text-center">Sobre mim</h1>
+      <div class="row mt-4">
+        <div class="col-lg-4">
+          <img src="imagens/eu.png" class="imageAboutPage" alt="Rodson de Souza Silva Junior" data-scroll
+            data-scroll-speed="3" data-scroll-direction="horizontal" data-scroll-position="top">
+        </div>
+        <div class="col-lg-8">
+          <p style=" text-align: justify;">
+            Sou um desenvolvedor com experiência em front-end e back-end, apaixonado por
+            criar soluções funcionais e
+            eficientes. No front-end, trabalho com HTML, CSS e JavaScript, buscando sempre entregar interfaces
+            responsivas e intuitivas. No back-end, tenho experiência com Java, desenvolvendo lógicas robustas e bem
+            estruturadas. Participei de um projeto voltado para os Objetivos de Desenvolvimento Sustentável (ODS) da
+            ONU, onde contribuí para a criação de cinco aplicativos com foco em sustentabilidade. Atuei na equipe
+            responsável pelo banco de dados, utilizando ferramentas como MySQL e Supabase. Nesse projeto, fui
+            responsável pela modelagem e implementação dos bancos de dados, integrando-os às aplicações e garantindo
+            o bom funcionamento das funcionalidades. Estou sempre em busca de novos aprendizados e desafios que me
+            ajudem a evoluir como profissional e contribuir com projetos de impacto.</p>
+          <div class="row mt-3">
+            <div class="col-md-6">
+              <div class="card" style="width: 21rem; border-radius: 20px; background-color:#272728; color: white;">
+                <div class="card-body">
+                  <ul>
+                    <h5 class="card-title">Sobre</h5>
+                    <li class="card-text">Nome: Rodson de Souza Silva Junior</li>
+                    <li class="card-text">Idade: 19 anos</li>
+                    <li class="card-text">Cidade: Salvador, Bahia</li>
+                    <li class="card-text">Cursando: Ciência da Computação</li>
+                    <li class="card-text">Semestre: 4/8</li>
+                    <br>
+                    <br>
+                  </ul>
+                </div>
+              </div>
+            </div> <!-- Pode repetir a div da coluna -->
+            <div class="col-md-6">
+              <div class="card" style="width: 26rem; border-radius: 20px; background-color:#272728; color: white;">
+                <div class="card-body">
+                  <ul>
+                    <h5 class="card-title">Habilidades</h5>
+                    <li class="card-text">Linguagens & Backend: Java, JavaScript, TypeScript, Node.js</li>
+                    <li class="card-text">Front-End: HTML,CSS, JAVASCRIPT</li>
+                    <li class="card-text">Banco de Dados: MySQL, SQLite, Supabase</li>
+                    <li class="card-text">Web: HTML5, CSS3, Bootstrap</li>
+                    <li class="card-text">Ferramentas & Práticas: Git/GitHub, Linter, Zod, Metodologia Ágil Scrum, POO</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <!--- portfolio section-->
+  <section class="hidden" id="portfolio">
+    <div class="container mt-3">
+      <h1 class="text-center">Portfolio</h1>
+      <div class="row">
+        <div class="col-lg-4 mt-4">
+          <div class="card">
+            <img classe="card-img-top" src="imagens/portfoliositeprint.png" alt="" style="width: 100%;">
+            <div class="card-body">
+              <h4 class="card-title">Site de Portfolio</h4>
+              <p class="card-text" style="text-align: center;">Um site de portfolio próprio, utilizando o framework
+                Bootstrap</p>
+              <div class="text-center">
+                <a href="index.html" class="btn btn-primary" target="_blank" class="card-text-center mb-3"
+                  id="contratar">Acessar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    </div>
+    <div class="row">
+      <!-- Repete a estrutura anterior-->
+    </div>
+  </section>
+
+  <!--- Contato section-->
+  <section class="hidden" id="contato">
+    <div class="container mt-3">
+      <h1 class="text-center">Contatos</h1>
+      <div class="row">
+        <!-- Divs que podem ser repetidas quantas vezes necessário -->
+        <div class="col-lg-4 mt-4">
+          <div class="card text-center mb-3" style="width: 25rem;">
+            <img src="imagens/github.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">GitHub</h5>
+              <a href="https://github.com/RodsonSSJunior" class="btn btn-primary" target="_blank"
+                class="card-text-center mb-3" id="contratar">Acessar</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 mt-4">
+          <div class="card text-center mb-3" style="width: 25rem;">
+            <img src="imagens/Black LinkedIn Icon.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Linkedin</h5>
+              <a href="https://www.linkedin.com/in/rddsjcc/" class="btn btn-primary" target="_blank"
+                class="card-text-center mb-3" id="contratar">Acessar</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 mt-4">
+          <div class="card text-center mb-3" style="width: 25rem;">
+            <img src="imagens/zap.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Whatsapp</h5>
+              <a href="https://wa.link/fas94e" class="btn btn-primary" class="card-text-center mb-3" id="contratar"
+                target="_blank">Acessar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="hidden">
+    <footer id="footer">
+      <div class="container-fluid">
+        <div class="footer-text mt-3">
+          <p>&copy; 2025 Todos os direitos reservados. Desenvolvido por Rodson.</p>
+        </div>
+      </div>
+    </footer>
+  </section>
+
+  <!-- Scripts-->
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
